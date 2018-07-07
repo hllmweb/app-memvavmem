@@ -1,0 +1,81 @@
+*{padding:0;margin:0;}
+html,body{
+	font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size:12px;
+}
+#geral{
+	width: 100%;
+}
+header#topo{
+	width: 100%;
+	position: fixed;
+	top:0;
+	background: #222222;
+	z-index: 1;
+}
+header#topo h2{
+	margin:0;
+	padding:20px 0;
+	color:#FFF;
+	text-transform: uppercase;
+	text-align: center;
+}
+section#busca > input{
+	width: 100%;
+	box-sizing: border-box;
+	padding:10px 5px;
+}
+input::-webkit-input-placeholder { 
+  color: #222222;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section#busca{
+	position: fixed;
+	top:61px;
+	width: 100%;
+	z-index: 1;
+}
+section#busca i{
+	position: absolute;
+	color:#000;
+	font-size:22px;
+	top:8px;	
+	right: 10px;
+}
+/*input[type="text"]::-webkit-input-placeholder:before{
+	font-family: 'FontAwesome';
+	content: "\f002";
+	color:rgba(0,0,0,0.6);	
+}*/
+ul#lista{
+	position: relative;
+	top:100px;
+	height: 100%;
+}
+ul#lista li{
+	font-size:16px;
+	border-bottom:1px solid #CCC;
+	background:#E4E4E4;
+	padding:5px 0 5px 15px;
+}
+ul#lista li h4{
+	color:#023a84;
+	font-size:14px;
+}
+ul#lista li h3{
+	color:#222222;
+	font-size:18px;
+}
+#conexao p{
+	text-align: center;
+	font-size:18px;
+}
+.loading{
+	background: url(../img/loading.gif) no-repeat;
+	width: 60px;
+	height: 60px;
+	display: block;
+	text-align: center;
+	margin:120px auto 0 auto;
+}
